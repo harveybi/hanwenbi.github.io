@@ -65,6 +65,7 @@
             <ul class="nav navbar-nav navbar-left">
                 <li class="active"><a href="#about">Home</a></li>
                 <li><a href="#project">Projects</a></li>
+				<li><a href="#publications">Publications</a></li>
                 <li><a href="#work">Experience</a></li>
             </ul>
         </div><!--/.nav-collapse -->
@@ -80,33 +81,59 @@
         <h2>Hanwen Bi</h2>
 					<p>
             		<div>M.S. in Biomedical Engineering</div>
-            		<div>Columbia University, New York City</div>
+            		<!--<div>Columbia University, New York City</div>-->
             		<div>Email:&nbsp;<a href="hb2618@columbia.edu">hb2618@columbia.edu</a></div>
 					</p>
 
       	<p><span><a href="./files/Hanwen Bi CV.pdf">C.V.</a></span> / 
 			<span><a href="https://github.com/harveybi">Github</a></span> / 
-          		  <span><a href="https://linkedin.com/in/hanwen-bi-3736b615b">Linkedin</a></span> /
+          		  <span><a href="https://linkedin.com/in/hanwen-bi-3736b615b">LinkedIn</a></span> /
 		  	      <span><a href="https://twitter.com/Harvey_Bi2333">Twitter</a></span> </p>
 	</div>
 	<div class="col-md-9 col-lg-4 col-lg-offset-0">
 	  <h4>&nbsp; &nbsp; &nbsp;Research Interests:</h4>
 	  <ul>
+		  <li>Neuroimaging</li>
 		  <li>Functional Brain Connectivity</li>
-		  <li>Computational Neuroscience</li>
-		  <li>Medical Image Analysis</li>
-          <li>Machine Learning</li>
-    	</ul>
+		  <li>Machine Learning</li>
+          <li>Medical Image Analysis</li>
+   	  </ul>
 	</div>
 	
 	<div id="about" class="col-md-10 col-lg-12" style="text-align:justify">
-      <p>I am a master student in Biomedical Engineering at <a href="https://www.columbia.edu/">Columbia University</a>, working with <a href="https://hbil.bme.columbia.edu/">Dr. Andrew Laine</a>.</p>
+      <p>I received my M.S. of BME from <a href="https://www.columbia.edu/">Columbia University</a> this Spring. During my study at Columbia, I focused on medical image analysis based on machine learning and deep learning in <a href="https://hbil.bme.columbia.edu/">Prof. Andrew Laine</a>'s group.</p>
 
       <p> I gained my bachelor's from <a href="https://english.neu.edu.cn/">Northeastern University (Shenyang, China)</a> with a major of Biomedical Engineering in 2019. During my undergraduate study, I worked with <a href="https://scholar.google.com/citations?hl=zh-CN&user=LfltuocAAAAJ&view_op=list_works&sortby=pubdate">Dr. Yueyang Teng</a> on construction and analysis of functional brain connectivity based on machine learning and deep learning methods.</p>
-    </div>
+  </div>
 
     <div id="project" class="col-md-10 col-lg-11" style="text-align:justify">
         <h3>Projects</h3>
+		
+		<div class="pub">
+            <table width="100%" border="0">
+                <tr>
+                    <td width="30%" valign="top">
+                      <a href="images/VAE.png" class="image"><img src="images/VAE.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="80%" valign="top">
+                        <div>
+                          <h5>Unravel Developing Infant Brain Network Patterns with Deep Learning</h5>
+                        </div>
+                        
+                        <div>
+					    <h6><em>Columbia University; Advisor: Prof. <a href="https://hbil.bme.columbia.edu/content/people">Andrew Laine</a> & Dr. <a href="https://childadolescentpsych.cumc.columbia.edu/staff/yun-wang">Yun Wang</a>; Oct. 2020 - Feb. 2021</em></h6>
+						  <ul class="one col-lg-11">
+							  <li style="font-size: 15px">Implemented a python script for structure MRI data preprocessing and organized data as BIDS format.</li>
+							  <li style="font-size: 15px">Investigated the effect of using different frame displacement calculation parameters at different ages on brain motion detection.</li>
+							  <li style="font-size: 15px">Proposing a VAE model for tracking and modelling infant brain pattern changes across the first few years of life in latent space.</li>
+						  </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+		</div>
+		
+		<p></p>
 		
         <div class="pub">
             <table width="100%" border="0">
@@ -121,11 +148,10 @@
                       <div>
 					    <h6><em><a href="https://www.neuromatchacademy.org/">Neuromatch Academy</a>; Advisor: Dr. <a href="https://yaulab.com/">Jeff Yau</a>; Jul. 2020</em></h6>
 						  <ul class="one col-lg-11">
-							  <li style="font-size: 15px">Made project proposal, developed research direction and data process pipeline, programed data preprocess</li>
-							  <li style="font-size: 15px">Implemented Spectral Co-Clustering method to extract four subnetworks from the whole brain network</li>
-							  <li style="font-size: 15px">Utilized a GLM model with L2 regularization to predict participants’ performances from subnetworks</li>
+							  <li style="font-size: 15px">Developed a pipeline for fMRI timeseries data processing and functional brain network construction. Implemented Spectral Co-Clustering method to extract four subnetworks from the whole brain network.</li>
+							  <li style="font-size: 15px">Proposed a GLM model with L2 regularization to predict participants’ working memory performances based on extracted subnetworks.</li>
 						  </ul>
-                        </div>
+                      </div>
                     </td>
                 </tr>
             </table>
@@ -137,7 +163,7 @@
             <table width="100%" border="0">
                 <tr>
                     <td width="30%" valign="top">
-                        <a href="images/lung.png" class="image"><img src="images/lung.png" width="90%" alt=""></a>
+                      <a href="images/RNN.png" class="image"><img src="images/RNN.png" width="90%" alt=""></a>
                     </td>
                     <td width="80%" valign="top">
                         <div>
@@ -145,38 +171,13 @@
                         </div>
                         
                         <div>
-					    <h6><em>Columbia University; Advisor: Dr. <a href="https://hbil.bme.columbia.edu/content/people">Andrew Laine</a>; Apr. 2020 - Present</em></h6>
+					    <h6><em>Columbia University; Advisor: Dr. <a href="https://hbil.bme.columbia.edu/content/people">Andrew Laine</a>; Apr. 2020 - Sep. 2020</em></h6>
 						  <ul class="one col-lg-11">
-							  <li style="font-size: 15px">Developing an automatic pipeline to separate lumen and wall on DECT scans through multi-material decomposition</li>
-							  <li style="font-size: 15px">Utilizing domain adaptation and transfer learning, train a segmentation model on Non-contrast CT scans (or Virtual Non-contrast CT scans)</li>
-							  <li style="font-size: 15px">Extracted vessel center line and optimized filter result (removed small vessel and disconnected component)</li>
+						    <li style="font-size: 15px">Implemented a MATLAB script to extract vessel centerlines and optimize filter results (removed small vessels and disconnected components).</li>
+							  <li style="font-size: 15px">Participated in developing an automatic pipeline to separate lumen and wall on DECT scans through multi-material decomposition.</li>
+							  <li style="font-size: 15px">Participated in proposing a recursive refinement network (RNN) for 3D registration of expiratory-inspiratory pairs of CT lung scans.</li>
 						  </ul>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-		</div>
-		
-		<p></p>
-		
-		<div class="pub">
-            <table width="100%" border="0">
-                <tr>
-                    <td width="30%" valign="top">
-                        <a href="images/sparse.png" class="image"><img src="images/sparse.png" width="90%" alt=""></a>
-                    </td>
-                    <td width="80%" valign="top">
-                        <div>
-                          <h5>Functional Brain Network Analysis Using Sparse Representation Methods</h5>
-                        </div>
-                        
-                        <div>
-					    <h6><em>Columbia University; Advisor: Dr. <a href="http://www.columbia.edu/~jw2966/">John Wright</a>; Mar. 2020 - May. 2020</em></h6>
-						  <ul class="one col-lg-11">
-							  <li style="font-size: 15px">Successfully implemented the sparse subspace clustering method to reveal the relationship between different brain areas</li>
-							  <li style="font-size: 15px">Utilized the robust principle content analysis method to extract information from the brain network to interpret the latent information</li>
-						  </ul>
-                        </div>
+                      </div>
                     </td>
                 </tr>
             </table>
@@ -197,17 +198,67 @@
                       <div>
 					    <h6><em>Northeastern University; Advisor: Dr. <a href="https://scholar.google.com/citations?hl=zh-CN&user=LfltuocAAAAJ&view_op=list_works&sortby=pubdate">Yueyang Teng</a>; Mar. 2018 - Apr. 2019</em></h6>
 						  <ul class="one col-lg-11">
-							  <li>Made project proposal, consulted references to keep up with the cutting-edge development, and coordinated routine work of members</li>
-							  <li>Preprocessed brain f-MRI imaging and constructed brain network with DPABI</li>
-							  <li>Successfully applied deep learning method of graph convolutional network to non-Euclidean data and obtained more comprehensive information of network for classification (AD/MCI/NC)</li>
+							  <li>Leaded a 3-person student group, made project proposal and coordinated routine work of members.</li>
+							  <li>Collected and organized fMRI data from ADNI and ABIDE dataset. Preprocessed data and constructed brain network by DPABI toolbox.</li>
+							  <li>Proposed a GCN model for functional brain network classification. Tested the method in ADNI and ABIDE dataset, conducted cross-database experiments and analyzed results.</li>
 						  </ul>
-                        </div>
+                      </div>
                     </td>
                 </tr>
             </table>
         </div>
         
     </div>
+	
+  <div id="publications" class="col-md-10 col-lg-11" style="text-align:justify">
+        <h3>Publications</h3>
+		
+		<div class="pub">
+            <table width="100%" border="0">
+                <tr>
+                    <td width="30%" valign="top">
+                        <a href="images/FTN.png" class="image"><img src="images/FTN.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="80%" valign="top">
+                        <div>
+					    <h6>Fully Transformer Network for Skin Lesion Analysis</h6>
+						<h7>Xinzi He, Ee-Leng Tan, <strong>Hanwen Bi</strong>, Xuzhe Zhang, Baiying Lei.</h7>
+						<br>
+						<h7>submitted to <em><strong>Medical Image Analysis</strong> (Special Issue on Skin Lesion)</em>, 2021</h7>
+						<br>
+						<h7>Paper / Code</h7>
+						<br>
+						<h8>We proposed a Fully Transformer Network (FTN) to learn long-range contextual information for skin lesion analysis.</h8>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+		</div>
+		
+		<p></p>
+		
+    <div class="pub">
+            <table width="100%" border="0">
+                <tr>
+                    <td width="30%" valign="top">
+                        <a href="images/RNN_paper.png" class="image"><img src="images/RNN_paper.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="80%" valign="top">
+                        <div>
+					    <h6>Recursive Refinement Network for Deformable Lung Registration between Exhale and Inhale CT Scans</h6>
+						<h7>Xinzi He, Jia Guo, Xuzhe Zhang, <strong>Hanwen Bi</strong>, Sarah Gerard, David Kaczka, Amin Motahari, Eric Hoffman, Joseph Reinhardt, R. Graham Barr, Elsa Angelini, and Andrew Laine.</h7>
+						<br>
+						<h7><a href="https://arxiv.org/pdf/2106.07608.pdf">Paper</a> / <a href="https://github.com/Novestars/Recursive_Refinement_Network">Code</a></h7>
+						<br>
+						<h8>We introduce a recursive renement network (RRN) for unsupervised medical image registration, to extract multi-scale features, construct normalized local cost correlation volume and recursively rene volumetric deformation vector fields.</h8>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+		</div>
+        
+    </div>
+	
     <!--<br>-->
 	<div id="education" class="col-md-10" style="text-align:justify">
         <h3>Education</h3>
@@ -216,7 +267,7 @@
                                              width="96px" height="96px"/></span>
             <div class="media-body">
                 <p><b>&nbsp; Columbia University in the City of New York</b></p>
-                <span style="font-weight: bold">&nbsp; Sep. 2019 - Dec. 2020</span>
+                <span style="font-weight: bold">&nbsp; Sep. 2019 - Feb. 2021</span>
               <p>&nbsp; M.S. in Biomedical Engineering</p>
             </div>
         </div>
@@ -226,7 +277,7 @@
             <div class="media-body">
                 <p><b>&nbsp; Northeastern University</b></p>
                 <span style="font-weight:bold">&nbsp; Sep. 2015 - Jun. 2019</span>
-              <p>&nbsp; B.S. in Biomedical Engineering</p>
+              <p>&nbsp; B.Eng. in Biomedical Engineering</p>
             </div>
         </div>
     </div>
@@ -243,7 +294,7 @@
 	
 	<div class="col-md-10" style="text-align:justify">
         <h3>Professional Affiliation</h3>
-        <span class="tag"> OHBM Student Member <i>2020</i> </span>
+        <span class="tag"> OHBM Student Member </span>
     </div>
 
 </div>
